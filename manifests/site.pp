@@ -16,4 +16,5 @@ node default {
       include "role::${role}"
     }
   }
+  notify {"pupperware bootstrap demo in-progress...":}
 }
